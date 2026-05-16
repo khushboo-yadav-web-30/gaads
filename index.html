@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GAADS Learning – ISO 9001:2015 certified job-oriented courses in Clinical Research, Medical Writing, Pharmacovigilance & Business Development." />
+  <title>GAADS Learning | Job-Oriented Professional Courses</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════
+     ANNOUNCEMENT BAR
+══════════════════════════════════════════════ -->
+<div class="announcement-bar" id="announcementBar">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap">
+      <span class="announce-badge">🎓 ISO 9001:2015 Certified</span>
+      <span class="announce-text">Enroll now &amp; get <strong>free CV Building &amp; Interview Webinar</strong> — limited seats!</span>
+      <a href="https://gaads.in/demo-class" class="announce-cta">Join Free Demo →</a>
+    </div>
+  </div>
+  <button class="announce-close" id="closeBar" aria-label="Close">&times;</button>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════════ -->
+<nav class="navbar navbar-expand-lg g-navbar" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="https://gaads.in">
+      <img src="img/logo.webp" alt="GAADS Learning" class="nav-logo" />
+    </a>
+
+    <button class="navbar-toggler g-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto gap-lg-1">
+        <li class="nav-item"><a class="nav-link g-link active" href="https://gaads.in">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link g-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Courses</a>
+          <ul class="dropdown-menu g-dropdown">
+            <li><a class="dropdown-item" href="https://gaads.in/course/clinical-research">Clinical Research</a></li>
+            <li><a class="dropdown-item" href="https://gaads.in/course/medical-writing-course">Medical Writing</a></li>
+            <li><a class="dropdown-item" href="https://gaads.in/course/pharmacovigilance-course">Pharmacovigilance</a></li>
+            <li><a class="dropdown-item" href="https://gaads.in/course/business-development">Business Development</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link g-link" href="https://gaads.in/webinars">Webinars</a></li>
+        <li class="nav-item"><a class="nav-link g-link" href="https://gaads.in/advisory-board">Advisory Board</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link g-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+          <ul class="dropdown-menu g-dropdown">
+            <li><a class="dropdown-item" href="https://gaads.in/soft-skills-training">Soft Skills Training</a></li>
+            <li><a class="dropdown-item" href="https://gaads.in/hr-services">HR Services</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link g-link" href="https://gaads.in/contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions d-flex align-items-center gap-2">
+        <a href="https://gaads.in/signin" class="btn btn-ghost-nav">Sign In</a>
+        <a href="https://gaads.in/demo-class" class="btn btn-nav-cta">
+          <i class="fas fa-play-circle me-1"></i> Free Demo
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════ -->
+<section class="hero-section" id="hero">
+  <!-- Decorative blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="grid-overlay"></div>
+
+  <div class="container hero-container">
+    <div class="row align-items-center g-5">
+
+      <!-- Left: copy -->
+      <div class="col-lg-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="hero-eyebrow">
+          <span class="pulse-dot"></span> ISO 9001:2015 Certified Education
+        </div>
+
+        <h1 class="hero-headline">
+          Put Your Career on a
+          <span class="gradient-text"> Growth Trajectory</span>
+        </h1>
+
+        <p class="hero-sub">
+          Job-oriented professional courses in Clinical Research, Medical Writing, Pharmacovigilance &amp; Business Development — designed to make you industry-ready from day one.
+        </p>
+
+        <div class="hero-actions">
+          <a href="https://gaads.in/courses" class="btn btn-primary-g">
+            Explore Courses <i class="fas fa-arrow-right ms-2"></i>
+          </a>
+          <a href="https://gaads.in/demo-class" class="btn btn-outline-g">
+            <i class="fas fa-play me-2"></i> Join Free Demo
+          </a>
+        </div>
+
+        <!-- Trust strip -->
+        <div class="hero-trust">
+          <div class="trust-item">
+            <span class="trust-num" data-target="500">0</span><span>+</span>
+            <span class="trust-label">Students Placed</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-num" data-target="4">0</span><span>+</span>
+            <span class="trust-label">Expert Courses</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-num" data-target="98">0</span><span>%</span>
+            <span class="trust-label">Satisfaction Rate</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: media card -->
+      <div class="col-lg-6 hero-media-col" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
+        <div class="hero-media-wrap">
+          <!-- Thumbnail with play button linking to YT video -->
+          <div class="hero-video-card">
+            <img src="https://gaads.in/assets/images/sf.webp" alt="GAADS Learning" class="hero-img" />
+            <a href="https://youtube.com/@gaadslearning" target="_blank" class="play-btn" aria-label="Watch video">
+              <i class="fas fa-play"></i>
+            </a>
+          </div>
+
+          <!-- Floating badges -->
+          <div class="float-badge badge-top-right" data-aos="zoom-in" data-aos-delay="600">
+            <i class="fas fa-star text-warning me-1"></i> 4.5 Rated Courses
+          </div>
+          <div class="float-badge badge-bottom-left" data-aos="zoom-in" data-aos-delay="700">
+            <i class="fas fa-briefcase me-1"></i> Job Assistance Included
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     MARQUEE STRIP
+══════════════════════════════════════════════ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>Clinical Research</span><span class="sep">✦</span>
+    <span>Medical Writing</span><span class="sep">✦</span>
+    <span>Pharmacovigilance</span><span class="sep">✦</span>
+    <span>Business Development</span><span class="sep">✦</span>
+    <span>Soft Skills Training</span><span class="sep">✦</span>
+    <span>HR Services</span><span class="sep">✦</span>
+    <span>Job Assistance</span><span class="sep">✦</span>
+    <span>Clinical Research</span><span class="sep">✦</span>
+    <span>Medical Writing</span><span class="sep">✦</span>
+    <span>Pharmacovigilance</span><span class="sep">✦</span>
+    <span>Business Development</span><span class="sep">✦</span>
+    <span>Soft Skills Training</span><span class="sep">✦</span>
+    <span>HR Services</span><span class="sep">✦</span>
+    <span>Job Assistance</span><span class="sep">✦</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     FEATURED COURSES
+══════════════════════════════════════════════ -->
+<section class="section-pad" id="courses">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-label">Our Programmes</span>
+      <h2 class="section-title">Featured <span class="gradient-text">Courses</span></h2>
+      <p class="section-sub">Industry-aligned certifications built for real career outcomes</p>
+    </div>
+
+    <div class="row g-4 mt-2">
+
+      <!-- Card 1: Clinical Research -->
+      <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="0">
+        <div class="course-card">
+          <div class="course-badge">Trending</div>
+          <div class="course-icon-wrap">
+            <i class="fas fa-flask"></i>
+          </div>
+          <div class="course-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            <span>4.5</span>
+          </div>
+          <h3 class="course-title">Clinical Research</h3>
+          <p class="course-desc">Evaluate drug safety and efficacy. Gain skills in clinical trial management, regulatory compliance, and data handling.</p>
+          <div class="course-meta">
+            <span><i class="fas fa-users me-1"></i>36 Enrolled</span>
+            <span class="course-price">₹35,000</span>
+          </div>
+          <a href="https://gaads.in/course/clinical-research" class="btn btn-course">View Course <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+      <!-- Card 2: Medical Writing -->
+      <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="course-card featured">
+          <div class="course-badge">Popular</div>
+          <div class="course-icon-wrap">
+            <i class="fas fa-pen-nib"></i>
+          </div>
+          <div class="course-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            <span>4.5</span>
+          </div>
+          <h3 class="course-title">Medical Writing</h3>
+          <p class="course-desc">Blend scientific knowledge with writing expertise. Create regulatory documents, clinical reports, and healthcare content.</p>
+          <div class="course-meta">
+            <span><i class="fas fa-users me-1"></i>28 Enrolled</span>
+            <span class="course-price">₹35,000</span>
+          </div>
+          <a href="https://gaads.in/course/medical-writing-course" class="btn btn-course">View Course <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+      <!-- Card 3: Pharmacovigilance -->
+      <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="course-card">
+          <div class="course-badge">High Demand</div>
+          <div class="course-icon-wrap">
+            <i class="fas fa-capsules"></i>
+          </div>
+          <div class="course-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            <span>4.5</span>
+          </div>
+          <h3 class="course-title">Pharmacovigilance</h3>
+          <p class="course-desc">Specialize in drug safety monitoring, adverse event reporting, and pharmaceutical regulatory affairs.</p>
+          <div class="course-meta">
+            <span><i class="fas fa-users me-1"></i>42 Enrolled</span>
+            <span class="course-price">₹35,000</span>
+          </div>
+          <a href="https://gaads.in/course/pharmacovigilance-course" class="btn btn-course">View Course <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+      <!-- Card 4: Business Development -->
+      <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="course-card">
+          <div class="course-badge">New</div>
+          <div class="course-icon-wrap">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="course-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            <span>4.5</span>
+          </div>
+          <h3 class="course-title">Business Development</h3>
+          <p class="course-desc">Master sales, client acquisition, and growth strategies to build a high-reward career in business development.</p>
+          <div class="course-meta">
+            <span><i class="fas fa-users me-1"></i>Open</span>
+            <span class="course-price">₹35,000</span>
+          </div>
+          <a href="https://gaads.in/course/business-development" class="btn btn-course">View Course <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="https://gaads.in/courses" class="btn btn-outline-g">View All Courses</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     ABOUT / VALUE PROP (split)
+══════════════════════════════════════════════ -->
+<section class="about-section section-pad">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="about-img-stack">
+          <img src="https://gaads.in/assets/images/abd.webp" alt="About GAADS" class="about-img-main" />
+          <div class="about-cert-badge" data-aos="zoom-in" data-aos-delay="400">
+            <i class="fas fa-certificate"></i>
+            <span>ISO 9001:2015<br/><small>Certified</small></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <span class="section-label">About GAADS</span>
+        <h2 class="section-title mt-2">Give Your Professional Life the <span class="gradient-text">Thrust It Deserves</span></h2>
+        <p class="about-body">
+          Whether you are a student chasing your dream job or a professional looking to upskill, GAADS courses are meticulously designed to enrich your skills, sharpen your knowledge, and help you stay ahead of the competition.
+        </p>
+        <p class="about-body">
+          Our platform serves both individuals and organizations — acting as a learning portal, career launchpad, and talent pipeline all in one.
+        </p>
+        <div class="about-pills">
+          <span class="a-pill"><i class="fas fa-check-circle me-2"></i>Industry-Expert Instructors</span>
+          <span class="a-pill"><i class="fas fa-check-circle me-2"></i>Flexible Online Learning</span>
+          <span class="a-pill"><i class="fas fa-check-circle me-2"></i>Job Assistance Network</span>
+          <span class="a-pill"><i class="fas fa-check-circle me-2"></i>Affordable Fees</span>
+          <span class="a-pill"><i class="fas fa-check-circle me-2"></i>Live Doubt-Clearing Sessions</span>
+          <span class="a-pill"><i class="fas fa-check-circle me-2"></i>CV &amp; Interview Coaching</span>
+        </div>
+        <a href="https://gaads.in/about" class="btn btn-primary-g mt-4">Learn More About Us</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     HOW IT WORKS
+══════════════════════════════════════════════ -->
+<section class="process-section section-pad">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-label">Your Journey</span>
+      <h2 class="section-title">Pave Your Way to <span class="gradient-text">Success</span></h2>
+      <p class="section-sub">Four simple steps between you and your dream career</p>
+    </div>
+
+    <div class="row g-4 mt-2">
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+        <div class="process-card">
+          <div class="process-num">01</div>
+          <div class="process-icon"><i class="fas fa-search"></i></div>
+          <h4>Choose Your Course</h4>
+          <p>Browse courses aligned with your goals — from beginner to expert level. Every programme is industry-calibrated.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="process-card">
+          <div class="process-num">02</div>
+          <div class="process-icon"><i class="fas fa-calendar-alt"></i></div>
+          <h4>Choose Your Timing</h4>
+          <p>All courses run in online mode — learn at your own place and pace, around your existing schedule.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="process-card">
+          <div class="process-num">03</div>
+          <div class="process-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <h4>Dive Deep</h4>
+          <p>Access lectures anytime and connect with qualified instructors for live doubt-clearing sessions throughout the course.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="process-card">
+          <div class="process-num">04</div>
+          <div class="process-icon"><i class="fas fa-briefcase"></i></div>
+          <h4>Get Job Assist</h4>
+          <p>Tap into our wide placement network to land your first job or step up to a better role in your domain.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     VIDEO GALLERY
+══════════════════════════════════════════════ -->
+<section class="videos-section section-pad">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-label">Recent Videos</span>
+      <h2 class="section-title">See GAADS <span class="gradient-text">in Action</span></h2>
+    </div>
+
+    <div class="row g-4 mt-2">
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+        <a href="https://www.youtube.com/watch?v=ckIqpEyhrrA" target="_blank" class="video-card">
+          <div class="video-thumb">
+            <img src="https://i.ytimg.com/vi/ckIqpEyhrrA/hqdefault.jpg" alt="Pharmacovigilance Course" />
+            <div class="video-play"><i class="fas fa-play"></i></div>
+          </div>
+          <p class="video-title">Pharmacovigilance Course</p>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <a href="https://www.youtube.com/watch?v=KCl5gzQDH7g" target="_blank" class="video-card">
+          <div class="video-thumb">
+            <img src="https://i.ytimg.com/vi/KCl5gzQDH7g/hqdefault.jpg" alt="Careers in Clinical Research" />
+            <div class="video-play"><i class="fas fa-play"></i></div>
+          </div>
+          <p class="video-title">Careers in Clinical Research</p>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <a href="https://www.youtube.com/watch?v=wrRY5VUMT-k" target="_blank" class="video-card">
+          <div class="video-thumb">
+            <img src="https://i.ytimg.com/vi/wrRY5VUMT-k/hqdefault.jpg" alt="GAADS Medical Writing Course" />
+            <div class="video-play"><i class="fas fa-play"></i></div>
+          </div>
+          <p class="video-title">GAADS Medical Writing Course</p>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <a href="https://www.youtube.com/watch?v=_j-Mgz9SnZ0" target="_blank" class="video-card">
+          <div class="video-thumb">
+            <img src="https://i.ytimg.com/vi/_j-Mgz9SnZ0/hqdefault.jpg" alt="Satisfied Students with GAADS" />
+            <div class="video-play"><i class="fas fa-play"></i></div>
+          </div>
+          <p class="video-title">Satisfied Students with GAADS</p>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="https://youtube.com/@gaadslearning" target="_blank" class="btn btn-outline-g">
+        <i class="fab fa-youtube me-2"></i> View More on YouTube
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     SERVICES
+══════════════════════════════════════════════ -->
+<section class="services-section section-pad">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-label">What We Offer</span>
+      <h2 class="section-title">Beyond Courses — <span class="gradient-text">Complete Support</span></h2>
+    </div>
+
+    <div class="row g-4 mt-2">
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card">
+          <div class="svc-icon"><i class="fas fa-brain"></i></div>
+          <h4>Soft Skills Training</h4>
+          <p>Communication, leadership, time management, and professional etiquette — the skills that get you hired and promoted.</p>
+          <a href="https://gaads.in/soft-skills-training" class="svc-link">Explore <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card">
+          <div class="svc-icon"><i class="fas fa-users-cog"></i></div>
+          <h4>HR Services</h4>
+          <p>End-to-end HR support for organisations — from talent acquisition and onboarding to performance management.</p>
+          <a href="https://gaads.in/hr-services" class="svc-link">Explore <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="svc-icon"><i class="fas fa-chalkboard"></i></div>
+          <h4>Webinars &amp; Workshops</h4>
+          <p>Free and paid live sessions covering CV building, interview prep, industry insights, and domain deep-dives.</p>
+          <a href="https://gaads.in/webinars" class="svc-link">Explore <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-card">
+          <div class="svc-icon"><i class="fas fa-handshake"></i></div>
+          <h4>Academic Collaboration</h4>
+          <p>Partnering with colleges and institutions to bring industry-ready curriculum directly into academic programmes.</p>
+          <a href="https://gaads.in/academic-collaboration" class="svc-link">Explore <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-card">
+          <div class="svc-icon"><i class="fas fa-file-alt"></i></div>
+          <h4>CV &amp; Interview Coaching</h4>
+          <p>One-on-one guidance to craft compelling CVs and practise interviews so you walk in prepared and confident.</p>
+          <a href="https://gaads.in/cv-building-and-interview-webinar" class="svc-link">Explore <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-card">
+          <div class="svc-icon"><i class="fas fa-network-wired"></i></div>
+          <h4>Placement Network</h4>
+          <p>Active connections with pharma, healthcare, and business organisations to help our students land the right roles faster.</p>
+          <a href="https://gaads.in/contact" class="svc-link">Contact Us <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     STATS
+══════════════════════════════════════════════ -->
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-grid">
+
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
+        <div class="stat-num"><span class="counter" data-target="500">0</span>+</div>
+        <div class="stat-label">Students Trained</div>
+      </div>
+
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-num"><span class="counter" data-target="4">0</span>+</div>
+        <div class="stat-label">Expert Courses</div>
+      </div>
+
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="stat-num"><span class="counter" data-target="98">0</span>%</div>
+        <div class="stat-label">Satisfaction Rate</div>
+      </div>
+
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-num"><span class="counter" data-target="10">0</span>+</div>
+        <div class="stat-label">Industry Partners</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     TESTIMONIALS
+══════════════════════════════════════════════ -->
+<section class="testimonials-section section-pad">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-label">Student Stories</span>
+      <h2 class="section-title">What People <span class="gradient-text">Say</span></h2>
+    </div>
+
+    <div id="testimonialCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="testi-card" data-aos="fade-up">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">"It is a very informative course. Very simple language used for explaining concepts. I strongly recommend anyone who is interested to learn pharmacovigilance from GAADS Learning."</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">S</div>
+                  <div>
+                    <strong>Sumit Vaid</strong>
+                    <span>Pharmacovigilance Graduate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-none d-md-block">
+              <div class="testi-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">"GAADS appears to be an education-focused organisation with a strong belief in the transformative power of education. The team is dedicated and always supportive."</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">G</div>
+                  <div>
+                    <strong>Geeta Santhanam</strong>
+                    <span>Clinical Research Student</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="testi-card" data-aos="fade-up">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">"I have completed my medical writing course from GAADS. Very knowledgeable faculty and I would strongly recommend GAADS for anyone interested in medical writing."</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">C</div>
+                  <div>
+                    <strong>Chetna Sharma</strong>
+                    <span>Medical Writing Graduate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-none d-md-block">
+              <div class="testi-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="testi-stars">★★★★☆</div>
+                <p class="testi-quote">"The placement assistance and industry connections made all the difference. Got my first pharma job within weeks of completing the course. GAADS delivers on its promises."</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">R</div>
+                  <div>
+                    <strong>Rahul Mehra</strong>
+                    <span>Business Development Alumnus</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-control-prev-custom" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="carousel-indicators-custom">
+          <button data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+          <button data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+        </div>
+        <button class="carousel-control-next-custom" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     LEAD FORM
+══════════════════════════════════════════════ -->
+<section class="lead-section section-pad" id="enroll">
+  <div class="lead-bg-blob"></div>
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-6" data-aos="fade-right">
+        <span class="section-label">Get Started Today</span>
+        <h2 class="section-title mt-2">Download Our <span class="gradient-text">Free Brochure</span></h2>
+        <p class="about-body">Get detailed course content, fees, schedules, and placement statistics delivered directly to you. No commitment required.</p>
+        <ul class="lead-bullets">
+          <li><i class="fas fa-check-circle"></i> Full curriculum breakdown</li>
+          <li><i class="fas fa-check-circle"></i> Fee structure &amp; payment options</li>
+          <li><i class="fas fa-check-circle"></i> Batch schedules</li>
+          <li><i class="fas fa-check-circle"></i> Placement track record</li>
+        </ul>
+        <p class="urgency-text"><i class="fas fa-clock me-2"></i> Limited seats available in the current batch</p>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="lead-form-card">
+          <h3 class="form-title">Get Free Brochure</h3>
+          <div class="mb-3">
+            <input type="text" class="form-control g-input" placeholder="Full Name *" required />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control g-input" placeholder="Email Address *" required />
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control g-input" placeholder="Mobile Number *" required />
+          </div>
+          <div class="mb-3">
+            <select class="form-select g-input">
+              <option value="" disabled selected>Select Course of Interest</option>
+              <option>Clinical Research</option>
+              <option>Medical Writing</option>
+              <option>Pharmacovigilance</option>
+              <option>Business Development</option>
+            </select>
+          </div>
+          <div class="mb-4">
+            <select class="form-select g-input">
+              <option value="" disabled selected>Qualification</option>
+              <option>B.Pharma / M.Pharma</option>
+              <option>MBBS / MD</option>
+              <option>B.Sc / M.Sc Life Sciences</option>
+              <option>Other Graduate</option>
+              <option>Post Graduate</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-primary-g w-100 btn-lg" onclick="handleFormSubmit(this)">
+            Download Free Brochure <i class="fas fa-file-download ms-2"></i>
+          </button>
+          <p class="form-note mt-3">🔒 Your information is safe. No spam, ever.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════════ -->
+<section class="faq-section section-pad">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-label">FAQ</span>
+      <h2 class="section-title">Common <span class="gradient-text">Questions</span></h2>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-8" data-aos="fade-up">
+        <div class="accordion g-accordion" id="faqAccordion">
+
+          <div class="accordion-item g-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button g-acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                Who are these courses for?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body g-acc-body">
+                Our courses are designed for fresh graduates in life sciences, pharmacy, medicine, and business — as well as working professionals looking to upskill or transition into specialised roles in pharma, healthcare, or business development.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item g-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button g-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                Are the courses online or offline?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body g-acc-body">
+                All courses are currently delivered 100% online, giving you complete flexibility to learn from anywhere at your own pace — with access to recorded lectures and live sessions.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item g-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button g-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                What kind of job assistance do you provide?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body g-acc-body">
+                We provide CV building guidance, mock interview sessions, and active connections to our industry partner network in pharma, clinical research, and business sectors to help you land the right role after completing the course.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item g-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button g-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                What is the fee for the courses?
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body g-acc-body">
+                Each course is priced at ₹35,000. We also offer flexible payment options. Contact us or download our brochure to learn about EMI options and current offers.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item g-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button g-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                Is GAADS a certified institution?
+              </button>
+            </h2>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body g-acc-body">
+                Yes. GAADS Learning Private Limited is an ISO 9001:2015 certified company, committed to delivering quality education that meets international standards.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     FINAL CTA
+══════════════════════════════════════════════ -->
+<section class="cta-section">
+  <div class="cta-bg-decor"></div>
+  <div class="container text-center">
+    <div data-aos="zoom-in">
+      <h2 class="cta-headline">Ready to Launch Your Career?</h2>
+      <p class="cta-sub">Join hundreds of students who transformed their professional lives with GAADS</p>
+      <div class="cta-actions">
+        <a href="https://gaads.in/demo-class" class="btn btn-primary-g btn-lg">
+          Join Free Demo Class <i class="fas fa-play ms-2"></i>
+        </a>
+        <a href="https://gaads.in/contact" class="btn btn-outline-white btn-lg">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════ -->
+<footer class="g-footer">
+  <div class="container">
+    <div class="row g-5">
+
+      <!-- Brand -->
+      <div class="col-lg-4">
+        <a href="https://gaads.in">
+          <img src="https://gaads.in/assets/images/logo.webp" alt="GAADS Learning" class="footer-logo" />
+        </a>
+        <p class="footer-about mt-3">
+          GAADS Learning Private Limited offers affordable, flexible, industry-oriented education and training programmes across varied sectors.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/gaadslearning" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://youtube.com/@gaadslearning" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/gaads_learning/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/gaadslearning/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <!-- Courses -->
+      <div class="col-6 col-lg-2">
+        <h5 class="footer-heading">Courses</h5>
+        <ul class="footer-links">
+          <li><a href="https://gaads.in/course/clinical-research">Clinical Research</a></li>
+          <li><a href="https://gaads.in/course/medical-writing-course">Medical Writing</a></li>
+          <li><a href="https://gaads.in/course/pharmacovigilance-course">Pharmacovigilance</a></li>
+          <li><a href="https://gaads.in/course/business-development">Business Development</a></li>
+        </ul>
+      </div>
+
+      <!-- Important Links -->
+      <div class="col-6 col-lg-2">
+        <h5 class="footer-heading">Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="https://gaads.in">Home</a></li>
+          <li><a href="https://gaads.in/about">About</a></li>
+          <li><a href="https://gaads.in/webinars">Webinars</a></li>
+          <li><a href="https://gaads.in/advisory-board">Advisory Board</a></li>
+          <li><a href="https://gaads.in/blogs">Blogs</a></li>
+          <li><a href="https://gaads.in/contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-lg-4">
+        <h5 class="footer-heading">Get in Touch</h5>
+        <ul class="footer-contact">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Block A, 2nd Floor, Plot No. 11, 12, 16, 17, Palam Extension, Sector 7 Dwarka, Delhi-110075 India</span>
+          </li>
+          <li>
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+919818021037">+91-9818021037</a>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:support@gaads.in">support@gaads.in</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 GAADS Learning Private Limited. All Rights Reserved.</p>
+      <div class="footer-legal">
+        <a href="https://gaads.in/privacy-policy">Privacy Policy</a>
+        <a href="https://gaads.in/term-and-condition">Terms &amp; Conditions</a>
+        <a href="https://gaads.in/grievance-redressal">Grievance Redressal</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════════════
+     FLOATING ELEMENTS
+══════════════════════════════════════════════ -->
+
+<!-- WhatsApp -->
+<a href="https://wa.me/917428600326?text=Need%20Consultant%20Related%20Courses" class="whatsapp-fab" target="_blank" aria-label="WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Sticky Mobile CTA -->
+<div class="sticky-mob-cta d-lg-none">
+  <a href="https://gaads.in/demo-class" class="btn btn-primary-g w-100">
+    <i class="fas fa-play-circle me-2"></i> Join Free Demo Class
+  </a>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

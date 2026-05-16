@@ -1,0 +1,131 @@
+/* ═══════════════════════════════════════════════
+   GAADS PREMIUM REDESIGN — RESPONSIVE.CSS
+═══════════════════════════════════════════════ */
+
+/* ── Large desktops (1400px+) ── */
+@media (min-width: 1400px) {
+  .hero-headline { font-size: 4rem; }
+}
+
+/* ── Tablets landscape (lg breakpoint 992px-1199px) ── */
+@media (max-width: 1199px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .badge-top-right { top: -12px; right: -12px; }
+  .badge-bottom-left { bottom: -12px; left: -12px; }
+}
+
+/* ── Tablets (md breakpoint 768px-991px) ── */
+@media (max-width: 991px) {
+  .section-pad { padding: 70px 0; }
+  .hero-section { padding: 80px 0; }
+
+  /* Navbar mobile */
+  .g-navbar { background: rgba(255,255,255,0.98) !important; padding: 14px 0 !important; border-bottom: 1px solid var(--border-solid); }
+  #navMenu {
+    background: var(--white);
+    border: 1px solid var(--border-solid);
+    border-radius: var(--radius-md);
+    padding: 16px;
+    margin-top: 12px;
+    box-shadow: var(--shadow-sm);
+  }
+  .nav-actions {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    width: 100%;
+  }
+  .nav-actions .btn { width: 100%; text-align: center; }
+  .g-link::after { display: none; }
+
+  /* Hero */
+  .hero-media-col { margin-top: 20px; }
+  .hero-img { height: 320px; }
+  .badge-top-right { top: -10px; right: 10px; font-size: 0.78rem; padding: 7px 12px; }
+  .badge-bottom-left { bottom: -10px; left: 10px; font-size: 0.78rem; padding: 7px 12px; }
+
+  /* Stats */
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 30px; }
+  .stat-num { font-size: 2.4rem; }
+
+  /* About */
+  .about-cert-badge { bottom: -10px; right: 10px; }
+}
+
+/* ── Mobile (sm breakpoint 576px-767px) ── */
+@media (max-width: 767px) {
+  .section-pad { padding: 60px 0; }
+  .hero-section { padding: 60px 0 80px; }
+
+  .hero-headline { font-size: 2rem; }
+  .hero-sub { font-size: 0.97rem; }
+  .hero-actions { gap: 12px; }
+  .hero-actions .btn { width: 100%; text-align: center; }
+
+  .hero-trust { gap: 16px; }
+  .trust-num { font-size: 1.5rem; }
+
+  .section-title { font-size: 1.8rem; }
+
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .stat-num { font-size: 2rem; }
+
+  .lead-form-card { padding: 28px 20px; }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-legal { justify-content: center; flex-wrap: wrap; gap: 12px; }
+
+  /* Announcement bar */
+  .announcement-bar { font-size: 0.8rem; padding: 8px 40px 8px 12px; }
+  .announce-badge { display: none; }
+
+  /* WhatsApp FAB repositioned for mobile sticky bar */
+  .whatsapp-fab { bottom: 90px; }
+}
+
+/* ── Small mobile (< 576px) ── */
+@media (max-width: 575px) {
+  .hero-trust { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .trust-divider { display: none; }
+
+  .cta-actions .btn { width: 100%; }
+
+  .about-cert-badge { position: static; margin-top: 16px; }
+  .about-img-stack { display: block; }
+
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+
+  .marquee-strip { padding: 14px 0; }
+
+  .g-accordion .g-acc-btn { font-size: 0.92rem; padding: 16px 18px; }
+
+  .float-badge { display: none; }
+}
+
+/* ── Dark mode media (browsers respecting system setting) ── */
+@media (prefers-color-scheme: light) {
+  /* We keep our dark theme regardless — brand decision */
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .marquee-track { animation: none; }
+  .pulse-dot { animation: none; }
+}
+
+/* ── Print ── */
+@media print {
+  .announcement-bar,
+  .g-navbar,
+  .whatsapp-fab,
+  .sticky-mob-cta { display: none !important; }
+  body { background: white; color: black; }
+}
